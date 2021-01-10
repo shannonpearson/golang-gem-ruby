@@ -1,4 +1,4 @@
-##### This project demonstrates how to incorporate functionality from a Go package into a Rails app as a gem. In this example, a basic addition is imported from a Golang executable and called from a Rails controller.
+##### This project demonstrates how to incorporate functionality from a Go package into a Rails app. In this example, a basic addition is imported from a Golang executable and called from a Rails controller.
 
 ### to set up this project:
 
