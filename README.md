@@ -8,3 +8,6 @@
 - `rails db:migrate`
 - `rails db:seed`
 
+### to run the project:
+
+- `rails s`
