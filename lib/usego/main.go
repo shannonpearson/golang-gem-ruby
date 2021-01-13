@@ -4,8 +4,8 @@ import (
 	"C"
 )
 
-//export DoSomething
-func DoSomething(a, b C.int) C.int {
+//export GoAdd
+func GoAdd(a, b C.int) C.int {
 	return a + b
 }
 
