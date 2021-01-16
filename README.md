@@ -1,4 +1,4 @@
-##### This project demonstrates how to export Golang functionality using a Ruby gem into a Rails app. In this example, the gem executes a basic addition function using an imported Golang function.
+##### This project demonstrates how to export Golang functionality using a Ruby gem into a Rails app. In this example, the gem provides a basic addition method using an imported Golang function.
 
 ### to set up this project:
 
