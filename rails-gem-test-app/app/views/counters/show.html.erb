@@ -1,0 +1,9 @@
+<h1>Counter</h1>
+<%= @counter.value %>
+
+<%= form_with url: '/add', method: :put do |f| %>
+<%= f.label :addend, "Add number:" %>
+<%= f.number_field :addend %>
+<%= f.submit "Submit" %>
+
+<% end %>
