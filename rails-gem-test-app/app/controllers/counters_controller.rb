@@ -1,4 +1,5 @@
 require 'pry'
+require 'usego'
 
 class CountersController < ApplicationController
   include GolangHelper
@@ -10,7 +11,7 @@ class CountersController < ApplicationController
   def update
     addend = params[:addend].to_i
     @counter = Counter.first
-    @counter.value = DoSomething(@counter.value, addend)
+    @counter.value = Usego.goAdd(@counter.value, addend)
     @counter.save!
     redirect_to root_path
   end

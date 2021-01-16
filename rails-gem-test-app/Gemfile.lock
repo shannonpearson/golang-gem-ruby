@@ -1,3 +1,8 @@
+PATH
+  remote: ../usego
+  specs:
+    usego (0.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -221,6 +226,7 @@ DEPENDENCIES
   sqlite3 (~> 1.4)
   turbolinks (~> 5)
   tzinfo-data
+  usego!
   web-console (>= 4.1.0)
   webdrivers
   webpacker (~> 5.0)
